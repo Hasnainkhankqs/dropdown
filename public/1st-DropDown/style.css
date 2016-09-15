@@ -52,8 +52,8 @@ ul{
     display: block;
 }
 .dropdown-content a:hover {background-color:rgba(120,120,210,0.5);
-                        
-
+                    border-left: 4px solid gray;
+                     border-right: 4px solid gray;
 }
 .drop:hover .dropdown-content {
     display: block;
