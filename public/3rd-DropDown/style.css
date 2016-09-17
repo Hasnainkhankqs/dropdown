@@ -14,19 +14,32 @@ h1{
     background-color:rgba(56, 45, 555, 0.5);
     color:papayawhip;
 }
-article{
-    width:48%;
-    background-color:rgba(115, 229, 211, 0.5);
-    float:left;
+.aside-left{
+    width:24%;
+    background-color:rgba(80, 102, 200,0.5);
     border:0.15em solid black;
     margin:0.5%;
+    float:left;
 }
-aside{
-    width:49%;
-    background-color:rgba(80, 102, 200,0.5);
-    float:right;
+article{
+    width:48.5%;
+    background-color:rgba(115, 229, 211, 0.5);
     border:0.15em solid black;
-    margin:0.5%
+    float:left;
+}
+
+.aside-right{
+    width:24%;
+    background-color:rgba(80, 102, 200,0.5);
+    border:0.15em solid black;
+    margin:0.5%;
+    float:right;
+}
+footer{
+        bottom: 0;
+    height: 35px;
+    position: fixed;
+    width: 100%;
 }
 .section-1{
 
